@@ -6,7 +6,7 @@ main:
     url: /categories/Algorithm/
   - title: "CS"
     url: /categories/CS/
-  - title: "Tags"
+  - title: "Tags" 
     url: /tags/
 # - title: "About"
 #   url: /about/
