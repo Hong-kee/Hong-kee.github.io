@@ -1,6 +1,6 @@
 ---
 title: "취업정보"
-permalink: /categories/취업정보/
+permalink: /categories/career/
 layout: category
 author_profile: true
 taxonomy: 취업정보
