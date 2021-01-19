@@ -7,7 +7,7 @@ main:
   - title: "CS"
     url: /categories/CS/
   - title: "취업정보"
-    url: /categories//
+    url: /categories/career/
   - title: "Tags" 
     url: /tags/
 # - title: "About"
