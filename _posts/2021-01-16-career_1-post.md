@@ -3,7 +3,7 @@ title:  "신입 개발자를 위한 몇 가지 이야기"
 excerpt: OKKY에서 읽은 신입 개발자에게 좋은 글 같아서 가져와 봤습니다.
 
 categories:
-  - career_info
+  - 취업정보
 tags:
   - 신입
   - 취업
