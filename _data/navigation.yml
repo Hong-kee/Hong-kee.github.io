@@ -9,6 +9,6 @@ main:
   - title: "취업정보"
     url: /categories/career/
   - title: "Tags" 
-    url: /tags/
+    url: /tags/tag/
 # - title: "About"
 #   url: /about/
