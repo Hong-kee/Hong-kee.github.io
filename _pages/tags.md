@@ -1,6 +1,6 @@
 ---
 title: "TAGS"
-permalink: /categories/tags/
+permalink: /tags/tags/
 layout: category
 author_profile: true
 taxonomy: tags
