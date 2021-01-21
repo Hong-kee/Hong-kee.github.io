@@ -3,6 +3,6 @@ title: "TAGS"
 permalink: /categories/tags/
 layout: category
 author_profile: true
-taxonomy: tags
+taxonomy: TAGS
 ---
 Various Tags
