@@ -1,0 +1,47 @@
+---
+title:  "[C++]백준10816번 숫자 카드2"
+excerpt: "[Silver 4] Binary Search."
+
+categories:
+  - Algorithm
+tags:
+  - Binary Search
+---
+오늘은 백준10816번 숫자 카드2 문제를 풀어보도록 하자. 이분탐색 문제로 upper_bound, lower_bound로 원하는 값을 제외한 값을 구해준다.
+
+위 함수들은 algorithm 라이브러리의 함수로 이분탐색 기반이다.
+
+[문제](https://www.acmicpc.net/problem/10816)는 다음과 같다.
+
+
+                                   [접근법]
+
+      1. upper,lower_bound함수로 원하는 num값 이상, 미만의 갯수를 구해준다.
+      
+      2. 그 후 두 값을 빼면 num의 갯수만 나오므로 손쉽게 구할 수 있다.
+      
+
+```c++
+                                     [코드]
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+vector<int>arr;
+int N, num, i = 0;
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> N;
+	for (int i = 0; i < N; i++) {
+		cin >> num;
+		arr.push_back(num);
+	}
+	sort(arr.begin(), arr.end());
+	cin >> N;
+	while (N--) {
+		cin >> num;
+		cout << upper_bound(arr.begin(), arr.end(), num) - lower_bound(arr.begin(), arr.end(), num) << ' ';
+	}
+}
+```
