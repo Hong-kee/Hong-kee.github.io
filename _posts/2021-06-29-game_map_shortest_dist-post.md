@@ -41,7 +41,6 @@ void BFS(int y, int x, vector<vector<int>>maps){//최단거리 탐색 BFS
         int y = Q.front().y;
         int x = Q.front().x;
         int cnt = Q.front().cnt;
-        int size_Q = Q.size();
         Q.pop();
         
         if(y == map_y && x == map_x){
