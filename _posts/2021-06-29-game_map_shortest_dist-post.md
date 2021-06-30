@@ -18,7 +18,7 @@ tags:
 using namespace std;
 
 bool visited[101][101];//maps의 방문처리 배열
-int dir[4][2] = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};//4방향 설정 (북, 동, 남, 서)
+int dir[4][2] = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };//4방향 설정 (북, 동, 남, 서)
 int map_y, map_x, answer = -1;//맵 크기와 정답 변수 선언
 
 struct pos{ //queue 안에 위치를 넣기위한 구조체 선언
